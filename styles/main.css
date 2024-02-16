@@ -317,7 +317,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 10px;  width: 80%;
-    margin: auto; 
+    justify-content: center;
+    width: auto;
+    margin: auto;
   }
 
   .grid-container article:nth-child(n+9) {
