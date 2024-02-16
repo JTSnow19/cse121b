@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 121b | W06: My Top 10 NBA Players</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html" >W4 Task</a></li>
+      <li><a href="w05-task.html">W5 Task</a></li>
+      <li><a href="project.html"class="active">Project</a></li>
+    </ul>
+  </nav>
+  <main id="home">
+    <section>
+      <h1>My Top 10 NBA Players<br>• &nbsp;<span id="name"></span>&nbsp; •</h1>
+      <h2>Favorite Foods</h2>
+      <ul id="favorite-foods"></ul>
+      <h2>Personal Note: this is not a ranking page, just my favorites ordered, I believe Jordan to be the GOAT, these are my viewing/inspired by rankings and yes I am a Warriors fan.</h2>
+      <ul id="hobbies"></ul>
+      <h2>Places Lived</h2>
+      <dl id="places-lived"></dl>
+      <select id="filtered" title="Choose a data filter."></select>
+        <option value="" disabled selected>Filter</option>
+        <option value="warriors">Utah</option>
+        <option value="spurs">Outside of Utah</option>
+        <option value="bulls">Built Before 1950</option>
+        <option value="lakers">Utah</option>
+        <option value="hornets">Outside of Utah</option>
+        <option value="mavericks">Built Before 1950</option>
+        <option value="all">No Filter</option>
+      </select>
+    </section>
+
+  </main>
+    <div class="form-container">
+              <form class="form">
+                  <input id="search" type="text" class="input" placeholder="player name, year or team..."/>
+                  <button id="clear" class="clear-results">clear</button>
+              </form>
+
+    </div>
+    <div class="results-container">
+       <ul class="results-list" id="list">
+
+       </ul>
+  <footer>
+    &copy;<span id="year"></span> | Full Credit to statmuse.com for stats (data last gathered: Febuary 15th 2024) and https://csvjson.com/csv2json for stat conversion
+    <!-- Initially, I was quite worried about gathering all the data. I attempted to utilize landofbasketball but the formatting didn't properly fit for easy addition. Statmuse mas excellent, and although I had to
+    fill in certain points, the gathering wasn't as tedious as I first thought. I gotta learn how to scrape with python, that would make most projects much smoother. -->
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="finalProject/final.js"></script>
+</body>
+
+</html>
+

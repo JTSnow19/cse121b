@@ -1,0 +1,72 @@
+[
+  {
+    "playerName": "Klay Thompson",
+    "ranking": "9",
+    "imageName": "finalImages/klayThompson.png",
+    "team": "GSW"
+    
+  },
+  {
+    "playerName": "Steph Curry",
+    "ranking": "2",
+    "imageName": "finalImages/stephCurry.png",
+    "team": "GSW"
+    
+  },
+  {
+    "playerName": "Johnathan Kuminga",
+    "ranking": "8",
+    "imageName": "finalImages/johnathanKuminga.png",
+    "team": "GSW"
+    
+  },
+  {
+    "playerName": "Magic Johnson",
+    "ranking": "5",
+    "imageName": "finalImages/magicJohnson.png",
+    "team": "LAL"
+    
+  },
+  {
+    "playerName": "Kareem Abdul-Jabar",
+    "ranking": "6",
+    "imageName": "finalImages/kareemAbdul.png",
+    "team": "LAL"
+    
+  },
+  {
+    "playerName": "Michael Jordan",
+    "ranking": "3",
+    "imageName": "finalImages/michaelJordan.png",
+    "team": "CHI"
+    
+  },
+  {
+    "playerName": "Luca Doncic",
+    "ranking": "7",
+    "imageName": "finalImages/lucaDoncic.png",
+    "team": "DAL"
+    
+  },
+  {
+    "playerName": "Steve Nash",
+    "ranking": "1",
+    "imageName": "finalImages/steveNash.png",
+    "team": "GSW"
+    
+  },
+  {
+    "playerName": "Victor Wembanyama",
+    "ranking": "10",
+    "imageName": "finalImages/victorWembanyama.png",
+    "team": "SAS"
+    
+  },
+  {
+    "playerName": "Muggsy Bogues",
+    "ranking": "4",
+    "imageName": "finalImages/muggsyBogues.png",
+    "team": "CHA"
+    
+  }
+]
