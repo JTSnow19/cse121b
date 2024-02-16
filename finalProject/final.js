@@ -4,18 +4,23 @@ let playerList = [];
 
 
 const displayPlayers = (players) => {
-    players.forEach(player => {
+  players.sort((a, b) => parseInt(a.ranking) - parseInt(b.ranking));
+
+  players.forEach(player => {
       let article = document.createElement('article');
+      let a = document.createElement('a');
+      a.href = `playerPage.html?playerName=${encodeURIComponent(player.playerName)}`;
       let h3 = document.createElement('h3');
       h3.textContent = `${player.playerName} - Ranking: ${player.ranking}`;
       let img = document.createElement('img');
       img.src = player.imageName;
       img.alt = player.playerName;
-      article.appendChild(h3);
+      a.appendChild(h3); 
+      article.appendChild(a);
       article.appendChild(img);
       playersElement.appendChild(article);
-    });
-  };
+  });
+};
 
 
 const getPlayers = async () => {
