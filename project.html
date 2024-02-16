@@ -33,7 +33,7 @@
       <ul id="hobbies"></ul>
       <h2>Places Lived</h2>
       <dl id="places-lived"></dl>
-      <select id="filtered" title="Choose a data filter."></select>
+      <select id="filtered" title="Choose a data filter.">
         <option value="" disabled selected>Filter</option>
         <option value="warriors">Utah</option>
         <option value="spurs">Outside of Utah</option>
@@ -43,6 +43,9 @@
         <option value="mavericks">Built Before 1950</option>
         <option value="all">No Filter</option>
       </select>
+
+      <div id="players">
+      </div>
     </section>
 
   </main>
@@ -62,7 +65,7 @@
     <!-- Initially, I was quite worried about gathering all the data. I attempted to utilize landofbasketball but the formatting didn't properly fit for easy addition. Statmuse mas excellent, and although I had to
     fill in certain points, the gathering wasn't as tedious as I first thought. I gotta learn how to scrape with python, that would make most projects much smoother. -->
   </footer>
-  <script src="scripts/main.js"></script>
+  <script src="cse121b/scripts/main.js"></script>
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>

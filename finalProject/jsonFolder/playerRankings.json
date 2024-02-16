@@ -2,70 +2,70 @@
   {
     "playerName": "Klay Thompson",
     "ranking": "9",
-    "imageName": "finalImages/klayThompson.png",
+    "imageName": "finalProject/fImages/klayThompson.png",
     "team": "GSW"
     
   },
   {
     "playerName": "Steph Curry",
     "ranking": "2",
-    "imageName": "finalImages/stephCurry.png",
+    "imageName": "finalProject/fImages/stephCurry.png",
     "team": "GSW"
     
   },
   {
     "playerName": "Johnathan Kuminga",
     "ranking": "8",
-    "imageName": "finalImages/johnathanKuminga.png",
+    "imageName": "finalProject/fImages/johnathanKuminga.png",
     "team": "GSW"
     
   },
   {
     "playerName": "Magic Johnson",
     "ranking": "5",
-    "imageName": "finalImages/magicJohnson.png",
+    "imageName": "finalProject/fImages/magicJohnson.png",
     "team": "LAL"
     
   },
   {
     "playerName": "Kareem Abdul-Jabar",
     "ranking": "6",
-    "imageName": "finalImages/kareemAbdul.png",
+    "imageName": "finalProject/fImages/kareemAbdul.png",
     "team": "LAL"
     
   },
   {
     "playerName": "Michael Jordan",
     "ranking": "3",
-    "imageName": "finalImages/michaelJordan.png",
+    "imageName": "finalProject/fImages/michaelJordan.png",
     "team": "CHI"
     
   },
   {
     "playerName": "Luca Doncic",
     "ranking": "7",
-    "imageName": "finalImages/lucaDoncic.png",
+    "imageName": "finalProject/fImages/lucaDoncic.png",
     "team": "DAL"
     
   },
   {
     "playerName": "Steve Nash",
     "ranking": "1",
-    "imageName": "finalImages/steveNash.png",
+    "imageName": "finalProject/fImages/steveNash.png",
     "team": "GSW"
     
   },
   {
     "playerName": "Victor Wembanyama",
     "ranking": "10",
-    "imageName": "finalImages/victorWembanyama.png",
+    "imageName": "finalProject/fImages/victorWembanyama.png",
     "team": "SAS"
     
   },
   {
     "playerName": "Muggsy Bogues",
     "ranking": "4",
-    "imageName": "finalImages/muggsyBogues.png",
+    "imageName": "finalProject/fImages/muggsyBogues.png",
     "team": "CHA"
     
   }

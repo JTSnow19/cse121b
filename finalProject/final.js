@@ -1,4 +1,4 @@
-const playerElement = document.getElementById('players');
+const playersElement = document.getElementById('players');
 let playerList = [];
 
 
@@ -18,23 +18,8 @@ const displayPlayers = (players) => {
   };
 
 
-
-const displayStats = (players) => {
-  temples.forEach(player => {
-    let article = document.createElement('article');
-    let h3 = document.createElement('h3');
-    h3.textContent = temple.templeName;
-    let img = document.createElement('img');
-    img.src = temple.imageUrl;
-    img.alt = temple.location;
-    article.appendChild(h3);
-    article.appendChild(img);
-    templesElement.appendChild(article);
-  });
-};
-
 const getPlayers = async () => {
-    const response = await fetch(`${process.env.PUBLIC_URL}jsonFolder/playerRankings.json`);
+    const response = await fetch("https://JTSnow19.github.io/cse121b/finalProject/jsonFolder/playerRankings.json");
     playerList = await response.json();
     displayPlayers(playerList);
   };
@@ -85,3 +70,4 @@ clearButton.addEventListener("click", () => {
 document.getElementById('filtered').addEventListener('change', searchEngine);
 
 getPlayers();
+
