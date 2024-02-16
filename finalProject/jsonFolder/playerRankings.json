@@ -2,70 +2,70 @@
   {
     "playerName": "Klay Thompson",
     "ranking": "9",
-    "imageName": "finalProject/fImages/klayThompson.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/klayThompson.png?raw=true",
     "team": "GSW"
     
   },
   {
     "playerName": "Steph Curry",
     "ranking": "2",
-    "imageName": "finalProject/fImages/stephCurry.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/stephCurry.png?raw=true",
     "team": "GSW"
     
   },
   {
     "playerName": "Johnathan Kuminga",
     "ranking": "8",
-    "imageName": "finalProject/fImages/johnathanKuminga.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/johnathanKuminga.png?raw=true",
     "team": "GSW"
     
   },
   {
     "playerName": "Magic Johnson",
     "ranking": "5",
-    "imageName": "finalProject/fImages/magicJohnson.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/magicJohnson.png?raw=true",
     "team": "LAL"
     
   },
   {
     "playerName": "Kareem Abdul-Jabar",
     "ranking": "6",
-    "imageName": "finalProject/fImages/kareemAbdul.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/kareemAbdul.png?raw=true",
     "team": "LAL"
     
   },
   {
     "playerName": "Michael Jordan",
     "ranking": "3",
-    "imageName": "finalProject/fImages/michaelJordan.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/michaelJordan.png?raw=true",
     "team": "CHI"
     
   },
   {
     "playerName": "Luca Doncic",
     "ranking": "7",
-    "imageName": "finalProject/fImages/lucaDoncic.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/lukaDoncic.png?raw=true",
     "team": "DAL"
     
   },
   {
     "playerName": "Steve Nash",
     "ranking": "1",
-    "imageName": "finalProject/fImages/steveNash.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/steveNash.png?raw=true",
     "team": "GSW"
     
   },
   {
     "playerName": "Victor Wembanyama",
     "ranking": "10",
-    "imageName": "finalProject/fImages/victorWembanyama.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/victorWembanyama.png?raw=true",
     "team": "SAS"
     
   },
   {
     "playerName": "Muggsy Bogues",
     "ranking": "4",
-    "imageName": "finalProject/fImages/muggsyBogues.png",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/muggsyBogues.png?raw=true",
     "team": "CHA"
     
   }
