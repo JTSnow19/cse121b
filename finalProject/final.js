@@ -7,7 +7,7 @@ const displayPlayers = (players) => {
     players.forEach(player => {
       let article = document.createElement('article');
       let h3 = document.createElement('h3');
-      h3.textContent = player.playerName;
+      h3.textContent = `${player.playerName} - Ranking: ${player.ranking}`;
       let img = document.createElement('img');
       img.src = player.imageName;
       img.alt = player.playerName;

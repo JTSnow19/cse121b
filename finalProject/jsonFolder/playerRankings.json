@@ -42,7 +42,7 @@
     
   },
   {
-    "playerName": "Luca Doncic",
+    "playerName": "Luka Doncic",
     "ranking": "7",
     "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/lukaDoncic.png?raw=true",
     "team": "DAL"
@@ -67,6 +67,13 @@
     "ranking": "4",
     "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/muggsyBogues.png?raw=true",
     "team": "CHA"
+    
+  },
+  {
+    "playerName": "Runner Ups",
+    "ranking": "1010001",
+    "imageName": "https://github.com/JTSnow19/cse121b/blob/main/finalProject/fImages/runnerups.png?raw=true",
+    "team": "NA"
     
   }
 ]
