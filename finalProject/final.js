@@ -9,7 +9,7 @@ const displayPlayers = (players) => {
   players.forEach(player => {
       let article = document.createElement('article');
       let a = document.createElement('a');
-      a.href = `playerPage.html?playerName=${encodeURIComponent(player.playerName)}`;
+      a.href = `finalProject/playerPage.html?playerName=${encodeURIComponent(player.playerName)}`;
       let h3 = document.createElement('h3');
       h3.textContent = `${player.playerName} - Ranking: ${player.ranking}`;
       let img = document.createElement('img');
@@ -28,13 +28,6 @@ const getPlayers = async () => {
     playerList = await response.json();
     displayPlayers(playerList);
   };
-
-//const getStats = async () => {
-    //const response = await fetch("jsonFolder/statList.json");
-    //statList = await response.json();
-    //displayPlayers(statList);
-  //}
-
 
 
 const searchEngine = () => {
