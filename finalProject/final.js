@@ -29,7 +29,7 @@ const getPlayers = async () => {
     displayPlayers(playerList);
   };
 
-
+// didn't have time to get filter properly set, also wanted to include a full stat search but oh well
 const searchEngine = () => {
     reset();
     let filter = document.getElementById('filtered').value;

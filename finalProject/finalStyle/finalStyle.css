@@ -263,6 +263,12 @@ footer {
 .grid-container article:nth-child(n+11) {
     grid-column: span 4; 
     width: 1000; 
-    height: auto;
+    height: 600;
     border-radius: 5px; 
+}
+
+.centered-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
